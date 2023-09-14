@@ -5,7 +5,13 @@ type Iprops = {
   repos: RepoSearchResultItem[];
 };
 const RepoList = (props: Iprops) => {
-  return props.repos.map((rp) => <RepoCard repo={rp} />);
+  return (
+    <>
+      {props.repos.map((rp) => (
+        <RepoCard repo={rp} />
+      ))}
+    </>
+  );
 };
 
 export default RepoList;
