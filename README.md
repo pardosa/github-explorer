@@ -5,7 +5,7 @@ Github Repo Explorer
 Access demo at [github-explorer-rosy.vercel.app](https://github-explorer-rosy.vercel.app/)
 
 ## About The App
-[Name of project] is a react application to explorer github users with their repositories
+This is a react web application to explorer github users with their repositories
 
 ## Technologies
 This application was built using vite and react + typescript and recoil as its state management. I use tailwindcss library for styling.
