@@ -18,7 +18,7 @@ This application was built using vite and react + typescript and recoil as its s
 - go to `http://localhost:5173`
 
 ## Status
-[name of project] is still in progress. `Version 2` will be out soon.
+Project is still in progress. Testing will be added soon.
 
 ## License
 
