@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Project Title
+Github Repo Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo link:
+Access demo at [github-explorer-rosy.vercel.app](https://github-explorer-rosy.vercel.app/)
 
-Currently, two official plugins are available:
+## About The App
+[Name of project] is a react application to explorer github users with their repositories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+This application was built using vite and react + typescript and recoil as its state management. I use tailwindcss library for styling.
 
-## Expanding the ESLint configuration
+## Setup
+- download or clone the repository
+- run `pnpm install`
+- add your GITHUB TOKEN to .env file
+- run `pnpm run dev`
+- go to `http://localhost:5173`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Status
+[name of project] is still in progress. `Version 2` will be out soon.
 
-- Configure the top-level `parserOptions` property like this:
+## License
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+MIT license @ [author](author.com)
